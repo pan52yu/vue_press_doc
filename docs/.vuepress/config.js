@@ -33,6 +33,7 @@ module.exports = {
           { text: '自动生成front matter', link: '/pages/088c16/' },
           { text: 'Markdown 容器', link: '/pages/d0d7eb/' },
           { text: 'Markdown 中使用组件', link: '/pages/197691/' },
+          {text: 'test', link: '/pages/9a97ca'},
           {
             text: '相关文章', items: [
               { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
@@ -73,7 +74,9 @@ module.exports = {
     // editLinkText: '编辑',
 
     // 以下配置是Vdoing主题改动的和新增的配置
-    sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+    sidebar: { mode: 'structuring', collapsable: false },
+    // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
+    // 温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
 
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
     updateBar: { // 最近更新栏
@@ -95,7 +98,7 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: 'Evan Xu', // 必需
+      name: 'huyu', // 必需
       href: 'https://github.com/xugaoyi' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
